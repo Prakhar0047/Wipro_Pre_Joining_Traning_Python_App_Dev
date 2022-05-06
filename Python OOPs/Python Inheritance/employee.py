@@ -12,10 +12,7 @@ class Employee:
     self.emp_list.pop(emp_no)
   
   def display_emp(self,emp_no):
-    details = self.emp_list[emp_no]
-    print("Employee Number:",emp_no)
-    print("Employee Name:",details[0])
-    print("Employee Salary:",details[1])
+    print(self.emp_list[emp_no])
 
   def max_salary(self):
     max_sal = 0
