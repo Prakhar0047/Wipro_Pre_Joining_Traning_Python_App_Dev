@@ -1,15 +1,15 @@
-<catalog>
-    <book id="bk101">
-        <author>Gambardella, Matthew</author>
-        <title>XML Developer's Guide</title>
-        <genre>Computer</genre>
-        text1
-        </book>
-        <!--Comment1-->
-        <book id="bk102">
-        <!--Comment2-->
-        <author>Ralls, Kim</author>
-        <title>Midnight Rain</title>
-        <genre>Fantasy</genre>
-    </book>
+<catalog> # Root or Outmost layer 
+    <emp id="ep101"> # First Child, ID and Tag
+        # It's Values
+        <empno>001</empno> 
+        <empname>Aman</empname>
+        <salary>50000</salary>
+    </emp>
+        
+    <emp id="ep102"> # Second Child
+        
+        <empno>002</empno>
+        <empname>Midnight Rain</empname>
+        <salary>60000</salary>
+    </emp>
 </catalog>
