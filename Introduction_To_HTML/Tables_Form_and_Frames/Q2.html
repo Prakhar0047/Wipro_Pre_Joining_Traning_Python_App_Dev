@@ -1,0 +1,60 @@
+<html>
+
+<head>
+  <title>Text Input Control</title>
+</head>
+
+<body>
+  <h1>User Detail Form</h1>
+  <hr>
+  <form>
+    <table border="1">
+      <tr>
+        <td>Questions</td>
+        <td>Options</td>
+      </tr>
+
+      <tr>
+        <td>Email Address:</td>
+        <td>
+          <input type="text" name="Email" />
+        </td>
+      </tr>
+
+      <tr>
+        <td>User's Interest</td>
+        <td>
+          <input type="checkbox" name="research" value="on"> Research
+          <input type="checkbox" name="purchase" value="on"> Purchase
+        </td>
+      </tr>
+
+      <tr>
+        <td>Occupation</td>
+        <td>
+          <select name="dropdown">
+            <option value="Select One" selected>Select One</option>
+            <option value="doctor">Doctor</option>
+            <option value="enginer">Enginer</option>
+            <option value="army">Army</option>
+          </select>
+        </td>
+      </tr>
+
+      <td>
+        Want us to send you junk emails?
+      </td>
+      <td>
+        <input type="radio" name="absolutely" value="on"> Absolutely
+        <input type="radio" name="no way" value="on"> No Way Man
+      </td>
+      </tr>
+
+    </table>
+    <br>
+    <input type="submit" name="submit" value="Submit" />
+    <input type="reset" name="reset" value="Reset" />
+  </form>
+</body>
+
+</html>
