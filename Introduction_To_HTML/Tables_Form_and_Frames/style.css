@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header
+{
+    height:30vh;
+    background-image: url("bg.jpg");
+    background-size:100% ;
+    background-color: aqua;
+}
+a
+{
+    color: blue;
+}
+.container
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.elem1
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+    height: 70vh;
+    background-color: blue;
+}
+.elem2
+{
+    display: flex;
+    width: 70vw;
+    height: 70vh;
+    background-color: brown;
+}

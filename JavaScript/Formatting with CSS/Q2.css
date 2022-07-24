@@ -1,0 +1,8 @@
+body {
+  background-color: goldenrod;
+}
+
+div {
+  background-image: url(Q1.jpg);
+  background-position: right top;
+}

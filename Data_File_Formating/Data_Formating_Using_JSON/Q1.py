@@ -6,8 +6,3 @@ print(df)
 
 for x in df:
   print(x)
-# for x in df:
-#   temp = df.loc[0, x]
-#   print(temp)
-#   avg+=int(temp)
-# print(avg)

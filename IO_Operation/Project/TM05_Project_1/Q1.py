@@ -1,10 +1,13 @@
 def secret(filename):
   word_count = {}
   with open(filename, 'r+') as infile:
-    print(infile.read())
-    no_lines = len(infile.readlines())
-    unique_words = set(infile.read().split())
-    words = infile.read().split()
+    ff = infile.read()
+    no_lines = len(ff)
+    # print("No of lines are: ", no_lines)
+    unique_words = set(ff.split())
+    words = ff.split()
+    # print("Unique Words are as follows: ", unique_words)
+    # print("Words are as follows: ", words)
   
   print("No of line",no_lines)
   print("Unique Words",unique_words)
