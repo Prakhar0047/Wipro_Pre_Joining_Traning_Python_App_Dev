@@ -10,7 +10,7 @@ with open(fname, 'r') as f:
         for w in line_word:  
             words.append(w)
     for i in range(0, len(words)):
-        count = 1
+        count = 1 
         for j in range(i+1, len(words)):  
             if(words[i] == words[j]):  
                 count = count + 1
