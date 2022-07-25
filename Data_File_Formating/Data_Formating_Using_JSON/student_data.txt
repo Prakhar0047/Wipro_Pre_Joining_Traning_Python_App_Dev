@@ -1,0 +1,1 @@
+{"students": [{"name": "James", "maths": "30", "physics": "18", "chemistry": "24", "avg": "24"}, {"name": "June", "maths": "25", "physics": "23", "chemistry": "27", "avg": "25"}, {"name": "Max", "maths": "27", "physics": "21", "chemistry": "27", "avg": "25"}, {"name": "selena", "maths": "30", "physics": "23", "chemistry": "27", "avg": "27"}]}
