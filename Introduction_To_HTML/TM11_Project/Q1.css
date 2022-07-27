@@ -12,20 +12,24 @@
 }
 
 .grid-container {
+  width: 100vw;
+    height: 90vh;
   display: grid;
   grid-template-columns: 30% 70%;
-  height: 20vh;
+  grid-template-rows: 30% 70%;
   background-size: 100%;
-  gap: 10px;
-  background-color: #2196F3;
   padding: 10px;
 }
 
-.grid-container>div {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
-  /* display: flex; */
-  /* justify-content: center; */
+.grid-item {
+  border: 2px solid blue;
+
+}
+
+.details {
+
+  display: flex;
+  height: 40vh;
+  justify-content: center;
+  align-content: center;
 }
