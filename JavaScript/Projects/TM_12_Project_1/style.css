@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+    line-height: 3;
+    background-color: purple;
+}
+
+h3 {
+    font-weight: 100;
+}
+
+.username {
+    color: #000;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 2.5px 5px;
+}
+
+/* black when not with focus */
+.username:focus {
+    color: #de2a00;
+}
+
+.password {
+    color: #000;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 2.5px 5px;
+}
+
+/* black when not with focus */
+.password :focus {
+    color: #de2a00;
+}
+
+.submit:hover {
+    background-color: white;
+}
+
+.form {
+    background-color: grey;
+}

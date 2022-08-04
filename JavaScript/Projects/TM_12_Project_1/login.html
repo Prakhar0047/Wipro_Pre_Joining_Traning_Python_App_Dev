@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Login</title>
+    </head>
+    <body>
+        <h3>Login Page</h3>
+        <form class="form" onsubmit="return validatePass()">
+            <label class="username">Enter User Name: <input type="text" /></label><br />
+            <label class="password">Enter PassWord: <input type="password" required id="passwd" /></label><br />
+            <input class="submit" type="submit" value="submit" />
+        </form>
+        <a href="register.html">New User</a>
+        <script src="validate.js"></script>
+    </body>
+</html>
